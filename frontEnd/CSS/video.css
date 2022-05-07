@@ -1,0 +1,58 @@
+.fnTGAN {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 123%;
+    pointer-events: none;
+    overflow: hidden;
+}
+@media (min-width: 768px) {
+    .py-md-12 {
+        padding-top: 72px;
+        padding-bottom: 8rem!important;
+    }
+}
+.fnTGAN .heroVideoPlaceholder {
+    position: relative;
+    height: 130vh;
+}
+@media (min-width: 1400px){
+    .fnTGAN .heroVideoPlaceholder__overlay {
+        top: -7rem;
+    }
+}
+.fnTGAN .heroVideoPlaceholder__overlay {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 12%, rgba(0, 0, 0, 0.75) 17%, rgba(0, 0, 0, 0.4) 23%, rgba(0, 0, 0, 0.28) 32%, rgba(0, 0, 0, 0.12) 52%, rgb(0, 0, 0) 100%);
+}
+.gstKfF .bg-black {
+    background-color: rgb(0, 0, 0) !important;
+}
+.pt-9 {
+    padding-top: 8rem!important;
+}
+@media (min-width: 1441px){
+    .container, .container-md {
+        max-width: 1326px!important;
+    }
+}
+.container {
+    position: relative;
+    z-index: 1;
+}
+@media (min-width: 992px){
+    .mt-lg-8 {
+        margin-top: 3rem!important;
+    }
+}
+.container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,20px);
+    padding-left: var(--bs-gutter-x,20px);
+    margin-right: auto;
+    margin-left: auto;
+}

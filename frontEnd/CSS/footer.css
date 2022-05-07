@@ -1,0 +1,7 @@
+#footts{
+    background-color: var(--purple-logo-color);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
