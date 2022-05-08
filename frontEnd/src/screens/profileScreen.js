@@ -4,7 +4,7 @@ const profileScreen ={
     },
     render : () =>{
         return `
-            <h1> lodu proflie dekh le apni</h1>
+            <h1> profile of the user</h1>
         `;
     }
 }
