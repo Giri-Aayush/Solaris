@@ -1,0 +1,52 @@
+#sign_in_background{
+    background-image: url("../images/hero-wide-blur.png");
+    height: 90vh;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sign_in_box{
+        width: 30rem;
+        height: 35rem;
+        background-color: rgb(242,242,242);
+        border-radius: 15px;
+        display: flex;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        flex-direction: column;
+        padding: 5px 51px;
+}
+#sign_in_logo{
+    display: flex;
+    align-self: center;
+    margin: 1rem 0px;
+}
+#sign_in_logo > img{
+    width: 1.6rem;
+    display: inline;
+}
+.sign_in_input{
+    
+    outline: none;
+    border: none;
+    background-color: white;
+    padding: 0 1rem;
+    color: #949494;
+    border-radius: 7px;
+    height: 42px;
+    margin: 15px 0px;
+    width: 23rem;
+
+}
+#sign_btn{
+    padding: 7px 12px;
+    border: none;
+    background-color: #8600AB;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+#footts{
+    background-color: #8600AB;
+    height: 4rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
